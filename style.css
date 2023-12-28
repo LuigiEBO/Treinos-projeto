@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(180deg, rgba(227, 225 , 248, 0) 82%, rgba(227, 255, 248, 0) 100%);
+  min-height: 100vh;
 }
 
 #page {
@@ -54,8 +56,19 @@ nav {
  button {
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
-  
- }
+  background: #69B99D;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+   }
+button:hover {
+  background: #51a587;
+}
  footer {
   font-size: 14px;
   line-height: 28px;
