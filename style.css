@@ -6,7 +6,7 @@ body {
   width: 1000px;
   margin: 65px auto 0;
  }
- header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
